@@ -1,6 +1,6 @@
 module.exports = {
 	name: "Apps", // optional, falls back to object key
-	description: "My Home Sweet HomeTools & other stuff I’ve made",
+	description: "Other stuff I’ve made",
 	options: {
 		frequency: 60 * 23, // 24 hours
 		// Use "run" if the sites don’t share assets on the same origin
@@ -11,5 +11,6 @@ module.exports = {
 	},
 	urls: [
 		"https://tipr.mobi/",
+		"https://webwewant.fyi/",
 	]
 };
